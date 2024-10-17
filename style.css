@@ -1,0 +1,15 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    background-color: aqua;
+    display: flex;          /* Use flexbox for centering */
+    justify-content: center; /* Horizontally center the image */
+    align-items: center;     /* Vertically center the image */
+    height: 100vh;           /* Make the body take the full viewport height */
+}
+#img img{
+    width: 400px;
+}
